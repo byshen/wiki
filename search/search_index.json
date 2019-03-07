@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Wiki\n\n\n\n\nArchitecture", 
-            "title": "Wiki"
+            "text": "Wiki\n\n\n\n\nArchitecture\n\n\nGrad School", 
+            "title": "Home"
         }, 
         {
             "location": "/#wiki", 
-            "text": "Architecture", 
+            "text": "Architecture  Grad School", 
             "title": "Wiki"
         }, 
         {
@@ -28,7 +28,7 @@
         {
             "location": "/grad/", 
             "text": "Grad School Advice\n\n\nWork with advisor\n\n\nWhen idea gives you some idea, you do not have a sense of urgency, you stuck somewhere and go back to your advisor, say hi your idea does not work. This is not how it works. Advisors also have pressure from funding agency - they also need to deliver.\n\n\nYour advisor is not your boss. Figure it out yourself. Find a TA-ship. If it does not work out, u can change it yourself. Do not wait for advisor to give suggestions. \n\n\nI also need to TA. Healthy model is that students works for their own project, provides enough info for advisor to discuss. This is the good way to get suggestions. Or if really stuck, show what is the problem, what have been tried, what are the results of your experiments. If you do not have these information, no one can help you.\n\n\nThe good point to leave grad school is when you feel you can not learn much from there.\n\n\nFunding agency\n\n\n\n\nNSF is slightly better, one year review.\n\n\nDARPA requires monthly meeting, poster, three-month PI meeting, final review. DARPA is good,\nbut the requirements are mad.\n\n\nIndustry funding still need some publications to show academic collaboration results.", 
-            "title": "Grad School Advice"
+            "title": "Grad School"
         }, 
         {
             "location": "/grad/#grad-school-advice", 
@@ -44,26 +44,6 @@
             "location": "/grad/#funding-agency", 
             "text": "NSF is slightly better, one year review.  DARPA requires monthly meeting, poster, three-month PI meeting, final review. DARPA is good,\nbut the requirements are mad.  Industry funding still need some publications to show academic collaboration results.", 
             "title": "Funding agency"
-        }, 
-        {
-            "location": "/mkdocs/", 
-            "text": "Mkdocs commands\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Mkdocs commands"
-        }, 
-        {
-            "location": "/mkdocs/#mkdocs-commands", 
-            "text": "", 
-            "title": "Mkdocs commands"
-        }, 
-        {
-            "location": "/mkdocs/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/mkdocs/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
         }
     ]
 }
