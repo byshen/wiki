@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/arch/", 
-            "text": "Architecture\n\n\nAccelerators\n\n\nCPU reaches a limit, specialized hw is a way out. \n\n\nBig pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart \nhelp\n. Bigger page size for data.\n\n\n48 bits for PA. 16 bits are not used. Check the protection.\n\n\n[ 16 | 28 | 20 ] // 64 bits\n\n\n\n\npage size is 2^20 = 1MB. If 1MB page, 36 bits can be used, which is 2^6 = 64GB memory. So the remaining 28 bits can be used.", 
+            "text": "Architecture\n\n\nConcepts\n\n\n\n\nMSHR\n: miss status holding registers. Hardware to handle cache misses; allow cpu to continue execution while a miss is handled.\n\n\n\n\n\n\nDiscussion on Accelerators 3/7\n\n\nCPU reaches a limit, specialized hw is a way out. \n\n\nBig pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart \nheap\n to determine a bigger page size for data.\n\n\n48 bits for PA. 16 bits are not used. Check the protection.\n\n\n[ 16 | 28 | 20 ] // 64 bits\n\n\n\n\npage size is 2^20 = 1MB. If 1MB page, 36 bits can be used, which is 2^6 = 64GB memory. So the remaining 28 bits can be used.", 
             "title": "Architecture"
         }, 
         {
@@ -21,13 +21,18 @@
             "title": "Architecture"
         }, 
         {
-            "location": "/arch/#accelerators", 
-            "text": "CPU reaches a limit, specialized hw is a way out.   Big pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart  help . Bigger page size for data.  48 bits for PA. 16 bits are not used. Check the protection.  [ 16 | 28 | 20 ] // 64 bits  page size is 2^20 = 1MB. If 1MB page, 36 bits can be used, which is 2^6 = 64GB memory. So the remaining 28 bits can be used.", 
-            "title": "Accelerators"
+            "location": "/arch/#concepts", 
+            "text": "MSHR : miss status holding registers. Hardware to handle cache misses; allow cpu to continue execution while a miss is handled.", 
+            "title": "Concepts"
+        }, 
+        {
+            "location": "/arch/#discussion-on-accelerators-37", 
+            "text": "CPU reaches a limit, specialized hw is a way out.   Big pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart  heap  to determine a bigger page size for data.  48 bits for PA. 16 bits are not used. Check the protection.  [ 16 | 28 | 20 ] // 64 bits  page size is 2^20 = 1MB. If 1MB page, 36 bits can be used, which is 2^6 = 64GB memory. So the remaining 28 bits can be used.", 
+            "title": "Discussion on Accelerators 3/7"
         }, 
         {
             "location": "/grad/", 
-            "text": "Grad School Advice\n\n\nWork with advisor\n\n\nWhen idea gives you some idea, you do not have a sense of urgency, you stuck somewhere and go back to your advisor, say hi your idea does not work. This is not how it works. Advisors also have pressure from funding agency - they also need to deliver.\n\n\nYour advisor is not your boss. Figure it out yourself. Find a TA-ship. If it does not work out, u can change it yourself. Do not wait for advisor to give suggestions. \n\n\nI also need to TA. Healthy model is that students works for their own project, provides enough info for advisor to discuss. This is the good way to get suggestions. Or if really stuck, show what is the problem, what have been tried, what are the results of your experiments. If you do not have these information, no one can help you.\n\n\nThe good point to leave grad school is when you feel you can not learn much from there.\n\n\nFunding agency\n\n\n\n\nNSF is slightly better, one year review.\n\n\nDARPA requires monthly meeting, poster, three-month PI meeting, final review. DARPA is good,\nbut the requirements are mad.\n\n\nIndustry funding still need some publications to show academic collaboration results.", 
+            "text": "Grad School Advice\n\n\nPresentation\n\n\n\n\nHow to design talks\n Key takeaways are to use good story with \nexamples figures\n in design slides. Always provide enough context clearly before delivering ideas.\n\n\n\n\nWriting good emails\n\n\n\n\nTODO\n\n\n\n\nWork with advisor\n\n\nWhen idea gives you some idea, you do not have a sense of urgency, you stuck somewhere and go back to your advisor, say hi your idea does not work. This is not how it works. Advisors also have pressure from funding agency - they also need to \ndeliver\n.\n\n\nResearch advisor is not like your boss. If it does not work out, an active student can change it yourself by talking to others. Waiting for advisor to give suggestions is not the only solution.\n\n\n\n\nMost of the unsuccessful students I've observed fail not because they're not smart or hardworking, but because they get stuck for extended periods of time and grow demoralized. Keep moving.\n\n\n\n\nA healthy model between advisor and students are that students works for their own project, provides enough info for advisor to discuss in the meetings. This is the good way to get suggestions. Or if really stuck, show what is the problem, what have been tried, what are the results of your experiments. If you do not have these information, no one can help you.\n\n\nThe good point to leave grad school is when you feel you can not learn much from there. Some empirical observations for \ngraduation standards\n.\n\n\nOther readings\n\n\n\n\nWorking effectively with advisor\n, Philip Guo\n\n\n\n\nTime management/Work habit\n\n\nHow much real work time do you have each day? Analyze and optimize.\n\n\nWork attitude\n\n\nThe Genius Fallacy\n by Jean Yang\n\n\n\n\nWhat I have learned is that discipline and the ability to persevere are equally, if not more, important to success than being able to look like a smart person in meetings. All of the superstars I've known have worked harder--and often faced more obstacles, in part due to the high volume of work--than other people, despite how much it might look like they are flying from one brilliant result to another from the outside. Because of this, I now want students who accept that life is hard and that they are going to fail. I want students who accept that sometimes work is going to feel like it's going to nowhere, to the point that they wish they were catastrophically failing instead because then at least something would be happening. While confidence might signal resilience and a formidable intellect might decrease the number of obstacles, the main differentiator between a star and simply a smart person is the ability to keep showing up when things do not go well.\n\n\n\n\nFunding agency\n\n\n\n\nNSF is slightly better, one year review.\n\n\nDARPA requires monthly meeting, poster, three-month PI meeting, final review. DARPA is good,\nbut the requirements are mad.\n\n\nIndustry funding still need some publications to show academic collaboration results.", 
             "title": "Grad School"
         }, 
         {
@@ -36,9 +41,29 @@
             "title": "Grad School Advice"
         }, 
         {
+            "location": "/grad/#presentation", 
+            "text": "How to design talks  Key takeaways are to use good story with  examples figures  in design slides. Always provide enough context clearly before delivering ideas.", 
+            "title": "Presentation"
+        }, 
+        {
+            "location": "/grad/#writing-good-emails", 
+            "text": "TODO", 
+            "title": "Writing good emails"
+        }, 
+        {
             "location": "/grad/#work-with-advisor", 
-            "text": "When idea gives you some idea, you do not have a sense of urgency, you stuck somewhere and go back to your advisor, say hi your idea does not work. This is not how it works. Advisors also have pressure from funding agency - they also need to deliver.  Your advisor is not your boss. Figure it out yourself. Find a TA-ship. If it does not work out, u can change it yourself. Do not wait for advisor to give suggestions.   I also need to TA. Healthy model is that students works for their own project, provides enough info for advisor to discuss. This is the good way to get suggestions. Or if really stuck, show what is the problem, what have been tried, what are the results of your experiments. If you do not have these information, no one can help you.  The good point to leave grad school is when you feel you can not learn much from there.", 
+            "text": "When idea gives you some idea, you do not have a sense of urgency, you stuck somewhere and go back to your advisor, say hi your idea does not work. This is not how it works. Advisors also have pressure from funding agency - they also need to  deliver .  Research advisor is not like your boss. If it does not work out, an active student can change it yourself by talking to others. Waiting for advisor to give suggestions is not the only solution.   Most of the unsuccessful students I've observed fail not because they're not smart or hardworking, but because they get stuck for extended periods of time and grow demoralized. Keep moving.   A healthy model between advisor and students are that students works for their own project, provides enough info for advisor to discuss in the meetings. This is the good way to get suggestions. Or if really stuck, show what is the problem, what have been tried, what are the results of your experiments. If you do not have these information, no one can help you.  The good point to leave grad school is when you feel you can not learn much from there. Some empirical observations for  graduation standards .  Other readings   Working effectively with advisor , Philip Guo", 
             "title": "Work with advisor"
+        }, 
+        {
+            "location": "/grad/#time-managementwork-habit", 
+            "text": "How much real work time do you have each day? Analyze and optimize.", 
+            "title": "Time management/Work habit"
+        }, 
+        {
+            "location": "/grad/#work-attitude", 
+            "text": "The Genius Fallacy  by Jean Yang   What I have learned is that discipline and the ability to persevere are equally, if not more, important to success than being able to look like a smart person in meetings. All of the superstars I've known have worked harder--and often faced more obstacles, in part due to the high volume of work--than other people, despite how much it might look like they are flying from one brilliant result to another from the outside. Because of this, I now want students who accept that life is hard and that they are going to fail. I want students who accept that sometimes work is going to feel like it's going to nowhere, to the point that they wish they were catastrophically failing instead because then at least something would be happening. While confidence might signal resilience and a formidable intellect might decrease the number of obstacles, the main differentiator between a star and simply a smart person is the ability to keep showing up when things do not go well.", 
+            "title": "Work attitude"
         }, 
         {
             "location": "/grad/#funding-agency", 

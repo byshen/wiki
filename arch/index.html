@@ -207,8 +207,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#accelerators" title="Accelerators" class="md-nav__link">
-    Accelerators
+  <a href="#concepts" title="Concepts" class="md-nav__link">
+    Concepts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion-on-accelerators-37" title="Discussion on Accelerators 3/7" class="md-nav__link">
+    Discussion on Accelerators 3/7
   </a>
   
 </li>
@@ -257,8 +264,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#accelerators" title="Accelerators" class="md-nav__link">
-    Accelerators
+  <a href="#concepts" title="Concepts" class="md-nav__link">
+    Concepts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion-on-accelerators-37" title="Discussion on Accelerators 3/7" class="md-nav__link">
+    Discussion on Accelerators 3/7
   </a>
   
 </li>
@@ -281,9 +295,14 @@
                 
                 
                 <h1 id="architecture">Architecture</h1>
-<h2 id="accelerators">Accelerators</h2>
+<h2 id="concepts">Concepts</h2>
+<ul>
+<li><code>MSHR</code>: miss status holding registers. Hardware to handle cache misses; allow cpu to continue execution while a miss is handled.</li>
+</ul>
+<p><img alt="" src="https://ws2.sinaimg.cn/large/006tKfTcly1g0w092b281j31oi0cm7c8.jpg" /></p>
+<h2 id="discussion-on-accelerators-37">Discussion on Accelerators 3/7</h2>
 <p>CPU reaches a limit, specialized hw is a way out. </p>
-<p>Big pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart <code>help</code>. Bigger page size for data.</p>
+<p>Big pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart <code>heap</code> to determine a bigger page size for data.</p>
 <p>48 bits for PA. 16 bits are not used. Check the protection.</p>
 <pre><code class="C">[ 16 | 28 | 20 ] // 64 bits
 </code></pre>
