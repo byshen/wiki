@@ -36,7 +36,7 @@
     
     
       
-        <title>Architecture - List of Things that I Will Forget</title>
+        <title>Research Advice - List of Things that I Will Forget</title>
       
     
     
@@ -71,7 +71,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#architecture" tabindex="1" class="md-skip">
+      <a href="#paper-writing" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -97,7 +97,7 @@
                 List of Things that I Will Forget
               </span>
               <span class="md-header-nav__topic">
-                Architecture
+                Research Advice
               </span>
             
           
@@ -178,56 +178,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Architecture
-      </label>
-    
-    <a href="./" title="Architecture" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../arch/" title="Architecture" class="md-nav__link">
       Architecture
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#concepts" title="Concepts" class="md-nav__link">
-    Concepts
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#discussion-on-accelerators-37" title="Discussion on Accelerators 3/7" class="md-nav__link">
-    Discussion on Accelerators 3/7
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -247,11 +202,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../research/" title="Research Advice" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Research Advice" class="md-nav__link md-nav__link--active">
       Research Advice
     </a>
+    
   </li>
 
     
@@ -272,29 +236,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#concepts" title="Concepts" class="md-nav__link">
-    Concepts
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#discussion-on-accelerators-37" title="Discussion on Accelerators 3/7" class="md-nav__link">
-    Discussion on Accelerators 3/7
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -306,20 +247,32 @@
               
                 
                 
-                <h1 id="architecture">Architecture</h1>
-<h2 id="concepts">Concepts</h2>
+                <h1 id="paper-writing">Paper Writing</h1>
 <ul>
-<li><code>MSHR</code>: miss status holding registers. Hardware to handle cache misses; allow cpu to continue execution while a miss is handled.</li>
+<li><a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/">How to write a good paper?</a></li>
 </ul>
-<p><img alt="" src="https://ws2.sinaimg.cn/large/006tKfTcly1g0w092b281j31oi0cm7c8.jpg" /></p>
-<h2 id="discussion-on-accelerators-37">Discussion on Accelerators 3/7</h2>
-<p>CPU reaches a limit, specialized hw is a way out. </p>
-<p>Big pages for data intensive applications. Less checking. Application even does not need to know. Heap knows how much data is allocated. Just use a smart <code>heap</code> to determine a bigger page size for data.</p>
-<p>48 bits for PA. 16 bits are not used. Check the protection.</p>
-<pre><code class="C">[ 16 | 28 | 20 ] // 64 bits
-</code></pre>
-
-<p>page size is 2^20 = 1MB. If 1MB page, 36 bits can be used, which is 2^6 = 64GB memory. So the remaining 28 bits can be used.</p>
+<blockquote>
+<p>Writing the paper is how you develop the idea in the <em>first</em> place.It usually turns out to be more interesting and challenging that it seemed at first.</p>
+</blockquote>
+<h1 id="talks">Talks</h1>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/">How to give a good talk?</a></li>
+</ul>
+<h2 id="presentation-tips">Presentation tips</h2>
+<ul>
+<li>Each slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)</li>
+<li>The title on each slide need to pinpoint the thing you need to discuss. </li>
+<li>Use animations for complex examples.</li>
+<li>Pay attention to tech terms used so people can understand. <strong>articulation!</strong> a good way to express your opinions. Pay attention to terms used. <em>a lot, big</em> are vague words, do not use.</li>
+<li>
+<p>Practice, practice, practice. Write the scripts ahead for the presentation.</p>
+</li>
+<li>
+<p>Treat every group meeting as a practice. Good slides, good points.</p>
+</li>
+<li>Grammar errors may not affect people's understanding, but they greatly hurt impressions.</li>
+<li>Communication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.</li>
+</ul>
                 
                   
                 
@@ -340,7 +293,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../grad/" title="Grad School" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -349,25 +302,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Home
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../grad/" title="Grad School" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
                 Grad School
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>

@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Wiki\n\n\n\n\nArchitecture\n\n\nGrad School", 
+            "text": "Wiki\n\n\n\n\nArchitecture\n\n\nGrad School\n\n\nResearch Advice", 
             "title": "Home"
         }, 
         {
             "location": "/#wiki", 
-            "text": "Architecture  Grad School", 
+            "text": "Architecture  Grad School  Research Advice", 
             "title": "Wiki"
         }, 
         {
@@ -69,6 +69,26 @@
             "location": "/grad/#funding-agency", 
             "text": "NSF is slightly better, one year review.  DARPA requires monthly meeting, poster, three-month PI meeting, final review. DARPA is good,\nbut the requirements are mad.  Industry funding still need some publications to show academic collaboration results.", 
             "title": "Funding agency"
+        }, 
+        {
+            "location": "/research/", 
+            "text": "Paper Writing\n\n\n\n\nHow to write a good paper?\n\n\n\n\n\n\nWriting the paper is how you develop the idea in the \nfirst\n place.It usually turns out to be more interesting and challenging that it seemed at first.\n\n\n\n\nTalks\n\n\n\n\nHow to give a good talk?\n\n\n\n\nPresentation tips\n\n\n\n\nEach slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)\n\n\nThe title on each slide need to pinpoint the thing you need to discuss. \n\n\nUse animations for complex examples.\n\n\nPay attention to tech terms used so people can understand. \narticulation!\n a good way to express your opinions. Pay attention to terms used. \na lot, big\n are vague words, do not use.\n\n\n\n\nPractice, practice, practice. Write the scripts ahead for the presentation.\n\n\n\n\n\n\nTreat every group meeting as a practice. Good slides, good points.\n\n\n\n\nGrammar errors may not affect people's understanding, but they greatly hurt impressions.\n\n\nCommunication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.", 
+            "title": "Research Advice"
+        }, 
+        {
+            "location": "/research/#paper-writing", 
+            "text": "How to write a good paper?    Writing the paper is how you develop the idea in the  first  place.It usually turns out to be more interesting and challenging that it seemed at first.", 
+            "title": "Paper Writing"
+        }, 
+        {
+            "location": "/research/#talks", 
+            "text": "How to give a good talk?", 
+            "title": "Talks"
+        }, 
+        {
+            "location": "/research/#presentation-tips", 
+            "text": "Each slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)  The title on each slide need to pinpoint the thing you need to discuss.   Use animations for complex examples.  Pay attention to tech terms used so people can understand.  articulation!  a good way to express your opinions. Pay attention to terms used.  a lot, big  are vague words, do not use.   Practice, practice, practice. Write the scripts ahead for the presentation.    Treat every group meeting as a practice. Good slides, good points.   Grammar errors may not affect people's understanding, but they greatly hurt impressions.  Communication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.", 
+            "title": "Presentation tips"
         }
     ]
 }
