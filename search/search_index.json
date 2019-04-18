@@ -72,7 +72,7 @@
         }, 
         {
             "location": "/research/", 
-            "text": "Paper Writing\n\n\n\n\nHow to write a good paper?\n\n\n\n\n\n\nWriting the paper is how you develop the idea in the \nfirst\n place.It usually turns out to be more interesting and challenging that it seemed at first.\n\n\n\n\nResearch\n\n\n\n\nScience is about truth\n\n\n\"That is a good question.\" \n\n\n\n\nTalks\n\n\n\n\nHow to give a good talk?\n\n\n\n\nPresentation tips\n\n\n\n\nEach slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)\n\n\nThe title on each slide need to pinpoint the thing you need to discuss. \n\n\nUse animations for complex examples.\n\n\nPay attention to tech terms used so people can understand. \narticulation!\n a good way to express your opinions. Pay attention to terms used. \na lot, big\n are vague words, do not use.\n\n\nYour English does not improve with years, it comes with effort.\n\n\nSimple words! Logics!\n\n\n\n\nPractice, practice, practice. Write the scripts ahead for the presentation.\n\n\n\n\n\n\nTreat every group meeting as a practice. Good slides, good points.\n\n\n\n\nGrammar errors may not affect people's understanding, but they greatly hurt impressions.\n\n\nCommunication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.\n\n\n\n\nJason's English.", 
+            "text": "Paper Writing\n\n\n\n\nHow to write a good paper?\n\n\n\n\n\n\nWriting the paper is how you develop the idea in the \nfirst\n place.It usually turns out to be more interesting and challenging that it seemed at first.\n\n\n\n\nResearch\n\n\n\n\nScience is about truth\n\n\n\"That is a good question.\" \n\n\n\n\nTalks\n\n\n\n\nHow to give a good talk?\n\n\n\n\nPresentation tips\n\n\n\n\nEach slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)\n\n\nThe title on each slide need to pinpoint the thing you need to discuss. \n\n\nUse animations for complex examples.\n\n\nPay attention to tech terms used so people can understand. \narticulation!\n a good way to express your opinions. Pay attention to terms used. \na lot, big\n are vague words, do not use.\n\n\nYour English does not improve with years, it comes with effort.\n\n\nSimple words! Logics!\n\n\n\n\nPractice, practice, practice. Write the scripts ahead for the presentation.\n\n\n\n\n\n\nTreat every group meeting as a practice. Good slides, good points.\n\n\n\n\nGrammar errors may not affect people's understanding, but they greatly hurt impressions.\n\n\n\n\nCommunication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.\n\n\n\n\n\n\nalways have related work. \n\n\n\n\n\n\nwriting levels\n\n\n\n\nlv.0 sitting in front of computer writing nothing\n\n\nlv.1 write a lot of things that no one can understand\n\n\nlv.2 writing things that people can understand\n\n\nlv.3 writing things that address all readers' concerns, start from why naturally to how.", 
             "title": "Research Advice"
         }, 
         {
@@ -92,13 +92,68 @@
         }, 
         {
             "location": "/research/#presentation-tips", 
-            "text": "Each slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)  The title on each slide need to pinpoint the thing you need to discuss.   Use animations for complex examples.  Pay attention to tech terms used so people can understand.  articulation!  a good way to express your opinions. Pay attention to terms used.  a lot, big  are vague words, do not use.  Your English does not improve with years, it comes with effort.  Simple words! Logics!   Practice, practice, practice. Write the scripts ahead for the presentation.    Treat every group meeting as a practice. Good slides, good points.   Grammar errors may not affect people's understanding, but they greatly hurt impressions.  Communication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.   Jason's English.", 
+            "text": "Each slide need to have a take away point, exactly one the slide! (When they read the slides, they can still understand)  The title on each slide need to pinpoint the thing you need to discuss.   Use animations for complex examples.  Pay attention to tech terms used so people can understand.  articulation!  a good way to express your opinions. Pay attention to terms used.  a lot, big  are vague words, do not use.  Your English does not improve with years, it comes with effort.  Simple words! Logics!   Practice, practice, practice. Write the scripts ahead for the presentation.    Treat every group meeting as a practice. Good slides, good points.   Grammar errors may not affect people's understanding, but they greatly hurt impressions.   Communication is more important in academia and industry. Papers need to convince others with your ideas. In company the weekly meeting affects managers' impressions on you, which matters most for a career.    always have related work.", 
             "title": "Presentation tips"
         }, 
         {
+            "location": "/research/#writing-levels", 
+            "text": "lv.0 sitting in front of computer writing nothing  lv.1 write a lot of things that no one can understand  lv.2 writing things that people can understand  lv.3 writing things that address all readers' concerns, start from why naturally to how.", 
+            "title": "writing levels"
+        }, 
+        {
             "location": "/quotes/", 
-            "text": "", 
+            "text": "A figure is more than a thousand words", 
             "title": "Quotes"
+        }, 
+        {
+            "location": "/db/", 
+            "text": "Popular DB\n\n\n\n\nOLTP vs OLAP\n\n\n\n\nOLTP (OnLine Transactional Processing) systems provide data to data warehouses.\nOLAP (OnLine Analytical Processing) systems help to analyze it, like periodically long-running batch jobs.\nA detailed comparison is \nhere\n. \n\n\n\n\n\n\ndouble write\n\n\n\n\n\n\nhow to do query optimization?\n\n\n\n\n\n\nAurora\n\n\nsigmod 2017\n\n\nsigmod 2018\n\n\nwrite up by \nGupta\n\n\nGoals (for commercial, proprietary db)\n\n\n1) reliability\n2) high-performance\n3) cost efficiency\n4) scale\n\n\n\n\nAmazon Aurora is a relational database service for OLTP workloads offered as part of Amazon Web Services (AWS). In this paper, we describe the architecture of Aurora and the design considerations leading to that architecture. We believe the \ncentral constraint\n in high throughput data processing has moved \nfrom compute and storage to the network\n. Aurora brings a novel architecture to the relational database to address this constraint, most notably by pushing redo processing to a multi-tenant scaleout storage service, purpose-built for Aurora. We describe how doing so not only \nreduces network traffic\n, but also allows for fast crash recovery, failovers to replicas without loss of data, and fault-tolerant, self-healing storage. We then describe how Aurora achieves consensus on durable state across numerous storage nodes using an efficient asynchronous scheme, avoiding expensive and chatty recovery protocols ...\n\n\n\n\nHowever, amazon was designed in 2012 to 2013, at that time the network bandwidth is ~10GBs, now there are RDMA which support 25+Gbs. Amazon's RDS is based on EC2, where the storage is EBS, which is some cloud storage. EC2 connects with EBS via ethernet network.\n\n\nRedo log as a innodb\n\n\n6 replica???\ngossip rather than paxos??\n\n\n[1] Amazon Aurora \u6df1\u5ea6\u63a2\u7d22 - \u817e\u8baf\u6280\u672f\u5de5\u7a0b\u7684\u6587\u7ae0 - \u77e5\u4e4e, https://zhuanlan.zhihu.com/p/33603518\n[2] \n\n\nPolarDB\n\n\nSpanner\n\n\nBigtable\n\n\nOceanBase\n\n\nDynamaDB", 
+            "title": "DB"
+        }, 
+        {
+            "location": "/db/#popular-db", 
+            "text": "OLTP vs OLAP   OLTP (OnLine Transactional Processing) systems provide data to data warehouses.\nOLAP (OnLine Analytical Processing) systems help to analyze it, like periodically long-running batch jobs.\nA detailed comparison is  here .     double write    how to do query optimization?", 
+            "title": "Popular DB"
+        }, 
+        {
+            "location": "/db/#aurora", 
+            "text": "sigmod 2017  sigmod 2018  write up by  Gupta", 
+            "title": "Aurora"
+        }, 
+        {
+            "location": "/db/#goals-for-commercial-proprietary-db", 
+            "text": "1) reliability\n2) high-performance\n3) cost efficiency\n4) scale   Amazon Aurora is a relational database service for OLTP workloads offered as part of Amazon Web Services (AWS). In this paper, we describe the architecture of Aurora and the design considerations leading to that architecture. We believe the  central constraint  in high throughput data processing has moved  from compute and storage to the network . Aurora brings a novel architecture to the relational database to address this constraint, most notably by pushing redo processing to a multi-tenant scaleout storage service, purpose-built for Aurora. We describe how doing so not only  reduces network traffic , but also allows for fast crash recovery, failovers to replicas without loss of data, and fault-tolerant, self-healing storage. We then describe how Aurora achieves consensus on durable state across numerous storage nodes using an efficient asynchronous scheme, avoiding expensive and chatty recovery protocols ...   However, amazon was designed in 2012 to 2013, at that time the network bandwidth is ~10GBs, now there are RDMA which support 25+Gbs. Amazon's RDS is based on EC2, where the storage is EBS, which is some cloud storage. EC2 connects with EBS via ethernet network.", 
+            "title": "Goals (for commercial, proprietary db)"
+        }, 
+        {
+            "location": "/db/#redo-log-as-a-innodb", 
+            "text": "6 replica???\ngossip rather than paxos??  [1] Amazon Aurora \u6df1\u5ea6\u63a2\u7d22 - \u817e\u8baf\u6280\u672f\u5de5\u7a0b\u7684\u6587\u7ae0 - \u77e5\u4e4e, https://zhuanlan.zhihu.com/p/33603518\n[2]", 
+            "title": "Redo log as a innodb"
+        }, 
+        {
+            "location": "/db/#polardb", 
+            "text": "", 
+            "title": "PolarDB"
+        }, 
+        {
+            "location": "/db/#spanner", 
+            "text": "", 
+            "title": "Spanner"
+        }, 
+        {
+            "location": "/db/#bigtable", 
+            "text": "", 
+            "title": "Bigtable"
+        }, 
+        {
+            "location": "/db/#oceanbase", 
+            "text": "", 
+            "title": "OceanBase"
+        }, 
+        {
+            "location": "/db/#dynamadb", 
+            "text": "", 
+            "title": "DynamaDB"
         }
     ]
 }
