@@ -429,9 +429,12 @@ struct pollfd {
 <ul>
 <li><code>epoll_create()</code> : create a context</li>
 <li><code>epoll_ctl()</code> : add monitored fds and related data structure to the context</li>
-<li><code>epoll_wait()</code> : does the actual wait, </li>
+<li><code>epoll_wait()</code> : does the actual wait, return a file descriptor that satisfies the events. </li>
 </ul>
-<p>The time complexity of monitoring is <code>O(1)</code>. Less CPU time was spent on finding available fds.</p>
+<p>The time complexity of monitoring is <code>O(1)</code>, also less context switching between user space and kernel space - the context created is always within kernel space. Less CPU time was spent on finding available fds.</p>
+<ul>
+<li><code>epoll</code> source code analysis <a href="https://www.cnblogs.com/apprentice89/p/3234677.html">here</a></li>
+</ul>
                 
                   
                 
